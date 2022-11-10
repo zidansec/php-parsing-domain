@@ -1,4 +1,4 @@
-# php-parsing-domain
+# PHP Parsing Domain Or Subdomain
 Simple PHP code for parsing domains, automatically fetching the TLD of the domain or subdomain.
 ```php
 function get_domain($url) {
