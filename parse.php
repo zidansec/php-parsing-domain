@@ -12,4 +12,7 @@ function get_domain($url) {
     return $value[1];
   }
 }
+
+echo get_domain($url);
+
 ?>
