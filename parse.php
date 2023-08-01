@@ -1,4 +1,8 @@
+#!/usr/bin/php
+
 <?php
+$url = "https://www.domain.com/login/admin.php?login&username=admin&password=admin&submit=login";
+
 function get_domain($url) {
   $str = '/^(?:https?.\/\/)?(?:[^@\/\n]+@)?(?:)?([^:\/?\n]+).*/m';
   preg_match_all($str, $url, $matches, PREG_SET_ORDER, 0);
